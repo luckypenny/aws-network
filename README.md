@@ -30,5 +30,11 @@ Private IP
  - IPv6 address is 128 bits in size with 8 blocks of 16 bits each
   - Example : 2020:1ed3:1d35:0000:0000:3d3d:0303:3939
  - IPv6 addresses are public and globally unique, and allows resources to communicate with the internet
- - VPC can operate in dual-stack mode where VPC resources can communitate over IPv4, or IPv6, or Both
+ - VPC can operate in dual-stack mode where VPC resources can communitate over IPv4, or IPv6, or Both ( 두 주소 다 갖을 수 있다. ) 
  - IPv6 address persists when you stop and start your instance, and is released when you terminate your instance
+
+
+- IPv4 : default and required for all VPCs; cannot be removed. The VPC/Subnet CIDR block size can be from /16 to 28
+- IPv6 : Opt-in only; The VPC CIDR block size is fixed at /56. Subnet block is fixed at /64
+
+
