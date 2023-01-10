@@ -37,4 +37,13 @@ Private IP
 - IPv4 : default and required for all VPCs; cannot be removed. The VPC/Subnet CIDR block size can be from /16 to 28
 - IPv6 : Opt-in only; The VPC CIDR block size is fixed at /56. Subnet block is fixed at /64
 
+### ENI
+- Logical component in a VPC that represents a virtual network card
+- The ENI can have the following attributes:
+  - 보안 그룹을 갖을 수 있다.
+  - IPv4 one or more secondary IPv4
+  - One Elatic IP (IPv4) per private IPv4
+  - One Public IPv4
+  - One or more security groups
+  - A MAC Address
 
