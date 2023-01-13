@@ -46,4 +46,7 @@ Private IP
   - One Public IPv4
   - One or more security groups
   - A MAC Address
+  
+  
+### Default VPC를 삭제 하면 다시 만들 수 있다.
 
